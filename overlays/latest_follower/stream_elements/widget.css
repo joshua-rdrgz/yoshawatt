@@ -1,0 +1,148 @@
+:root {
+  --color-dodger-blue: #4b9eff;
+  --color-prussian-blue: #153243;
+  --color-school-bus-yellow: #ffdb00;
+  --color-indigo: #284b63;
+  --color-cinereous: #81726a;
+
+  --color-white: #efefef;
+  --color-black: #101010;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Advent Pro', sans-serif;
+}
+
+section.follower-widget {
+  margin: 0 10px;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.9;
+
+  position: relative;
+  overflow: visible;
+}
+
+section.follower-widget-settings {
+  color: var(--{{textColor}});
+}
+
+h2.follower-widget-label {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 5px;
+  transform: translateY(-50%);
+  padding: 0 10px;
+  z-index: 99999;
+}
+
+h2.follower-widget-label-settings {
+  background-color: var(--{{backgroundColor}});
+}
+
+div.follower-widget-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 30px 10px;
+}
+
+div.aug-ui-border {
+  --aug-clip-tl1: initial;
+  --aug-tl1: 15px;
+
+  --aug-rect-t1: initial;
+  --aug-t-extend1: 140px;
+  --aug-t-inset1: 4px;
+
+  --aug-round-tr1: initial;
+
+  --aug-clip-br1: initial;
+  --aug-br1: 25px;
+
+  --aug-round-bl1: initial;
+}
+
+div.aug-ui-border-settings {
+  --aug-border-bg: var(--{{borderColor}});
+  --aug-inlay-bg: var(--{{backgroundColor}});
+}
+
+div.follower-widget-icon {
+  width: 50px;
+}
+
+.icon-color-color-dodger-blue {
+  fill: var(--color-dodger-blue);
+}
+
+.icon-color-color-prussian-blue {
+  fill: var(--color-prussian-blue);
+}
+
+.icon-color-color-school-bus-yellow {
+  fill: var(--color-school-bus-yellow);
+}
+
+.icon-color-color-indigo {
+  fill: var(--color-indigo);
+}
+
+.icon-color-color-cinereous {
+  fill: var(--color-cinereous);
+}
+
+.icon-color-color-white {
+  fill: var(--color-white);
+}
+
+.icon-color-color-black {
+  fill: var(--color-black);
+}
+
+div.follower-name-container {
+  overflow: hidden;
+}
+
+div.follower-name-container.scrolling {
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    white 33%,
+    white 66%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    white 33%,
+    white 66%,
+    transparent
+  );
+}
+
+div.scroll-container {
+  display: inline-flex;
+  white-space: nowrap;
+}
+
+div.follower-name-container[data-animated='true'] div.scroll-container {
+  animation: scroll linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 25px));
+  }
+}

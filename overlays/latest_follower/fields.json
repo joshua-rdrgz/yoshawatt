@@ -1,0 +1,73 @@
+{
+  "borderColor": {
+    "type": "dropdown",
+    "label": "Border Color",
+    "options": {
+      "color-dodger-blue": "Dodger Blue",
+      "color-prussian-blue": "Prussian Blue",
+      "color-school-bus-yellow": "School Bus Yellow",
+      "color-indigo": "Indigo",
+      "color-cinereous": "Cinereous",
+      "color-white": "White",
+      "color-black": "Black"
+    },
+    "value": "color-dodger-blue"
+  },
+  "backgroundColor": {
+    "type": "dropdown",
+    "label": "Background Color",
+    "options": {
+      "color-dodger-blue": "Dodger Blue",
+      "color-prussian-blue": "Prussian Blue",
+      "color-school-bus-yellow": "School Bus Yellow",
+      "color-indigo": "Indigo",
+      "color-cinereous": "Cinereous",
+      "color-white": "White",
+      "color-black": "Black"
+    },
+    "value": "color-black"
+  },
+  "textColor": {
+    "type": "dropdown",
+    "label": "Text Color",
+    "options": {
+      "color-dodger-blue": "Dodger Blue",
+      "color-prussian-blue": "Prussian Blue",
+      "color-school-bus-yellow": "School Bus Yellow",
+      "color-indigo": "Indigo",
+      "color-cinereous": "Cinereous",
+      "color-white": "White",
+      "color-black": "Black"
+    },
+    "value": "color-white"
+  },
+  "iconColor": {
+    "type": "dropdown",
+    "label": "Icon Color",
+    "options": {
+      "color-dodger-blue": "Dodger Blue",
+      "color-prussian-blue": "Prussian Blue",
+      "color-school-bus-yellow": "School Bus Yellow",
+      "color-indigo": "Indigo",
+      "color-cinereous": "Cinereous",
+      "color-white": "White",
+      "color-black": "Black"
+    },
+    "value": "color-white"
+  },
+  "scrollSpeed": {
+    "type": "number",
+    "label": "Scroll Speed (seconds)",
+    "value": 20,
+    "min": 5,
+    "max": 60,
+    "step": 1
+  },
+  "containerWidth": {
+    "type": "number",
+    "label": "Container Width (px)",
+    "value": 300,
+    "min": 200,
+    "max": 500
+  }
+}

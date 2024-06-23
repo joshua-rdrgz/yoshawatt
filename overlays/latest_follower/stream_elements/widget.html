@@ -1,0 +1,68 @@
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://unpkg.com/augmented-ui@2/augmented-ui.min.css"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap"
+  rel="stylesheet"
+/>
+
+<section class="follower-widget follower-widget-settings">
+  <h2 class="follower-widget-label follower-widget-label-settings">
+    Latest Follower
+  </h2>
+
+  <div
+    class="follower-widget-content aug-ui-border aug-ui-border-settings"
+    data-augmented-ui="both"
+  >
+    <div class="follower-widget-icon">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        version="1.1"
+        width="100%"
+        height="100%"
+        preserveAspectRatio="xMaxYMin"
+        viewBox="0 0 510 510"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g>
+          <path
+            style="opacity: 0.983"
+            class="icon-color-{{iconColor}}"
+            d="M -0.5,182.5 C -0.5,171.5 -0.5,160.5 -0.5,149.5C 7.33562,100.151 34.0023,64.9846 79.5,44C 105.443,33.7723 132.11,31.2723 159.5,36.5C 159.833,77.8387 159.5,119.172 158.5,160.5C 133.997,175.917 109.663,191.584 85.5,207.5C 84.6668,240.162 84.1668,272.828 84,305.5C 62.9397,285.108 42.6064,264.108 23,242.5C 10.5286,224.241 2.69523,204.241 -0.5,182.5 Z"
+          />
+        </g>
+        <g>
+          <path
+            style="opacity: 0.987"
+            class="icon-color-{{iconColor}}"
+            d="M 511.5,146.5 C 511.5,149.833 511.5,153.167 511.5,156.5C 469.499,156.333 427.499,156.5 385.5,157C 367.195,174.304 349.195,191.971 331.5,210C 311.169,210.5 290.836,210.667 270.5,210.5C 270.333,169.499 270.5,128.499 271,87.5C 287.331,69.1587 306.497,54.6587 328.5,44C 379.67,25.084 426.336,32.7507 468.5,67C 491.894,88.6218 506.227,115.122 511.5,146.5 Z"
+          />
+        </g>
+        <g>
+          <path
+            style="opacity: 0.981"
+            class="icon-color-{{iconColor}}"
+            d="M 188.5,46.5 C 208.433,57.2463 225.933,71.2463 241,88.5C 241.5,138.832 241.667,189.166 241.5,239.5C 275.168,239.667 308.835,239.5 342.5,239C 360.805,221.696 378.805,204.029 396.5,186C 434.499,185.5 472.499,185.333 510.5,185.5C 508.219,203.011 502.552,219.345 493.5,234.5C 462.172,235.333 430.839,235.833 399.5,236C 381.5,254 363.5,272 345.5,290C 310.835,290.5 276.168,290.667 241.5,290.5C 241.667,323.168 241.5,355.835 241,388.5C 228.667,400.833 216.333,413.167 204,425.5C 174,395.5 144,365.5 114,335.5C 113.333,298.167 113.333,260.833 114,223.5C 138.667,207.5 163.333,191.5 188,175.5C 188.5,132.501 188.667,89.5013 188.5,46.5 Z"
+          />
+        </g>
+        <g>
+          <path
+            style="opacity: 0.977"
+            class="icon-color-{{iconColor}}"
+            d="M 411.5,264.5 C 430.503,264.333 449.503,264.5 468.5,265C 397.667,335.833 326.833,406.667 256,477.5C 245.319,466.986 234.819,456.319 224.5,445.5C 239.793,430.708 254.959,415.708 270,400.5C 270.5,373.502 270.667,346.502 270.5,319.5C 299.502,319.667 328.502,319.5 357.5,319C 375.702,300.965 393.702,282.799 411.5,264.5 Z"
+          />
+        </g>
+      </svg>
+    </div>
+    <div class="follower-name-container" style="width: {{containerWidth}}px">
+      <div class="scroll-container">
+        <h1 id="latest-follower-name"></h1>
+      </div>
+    </div>
+  </div>
+</section>
