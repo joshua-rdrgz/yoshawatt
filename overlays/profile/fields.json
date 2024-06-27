@@ -1,0 +1,55 @@
+{
+  "profilePic": {
+    "type": "image-input",
+    "label": "Profile Picture"
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Font Size",
+    "value": 24,
+    "min": 12,
+    "max": 48
+  },
+  "borderColor": {
+    "type": "dropdown",
+    "label": "Border Color",
+    "value": "var(--color-dodger-blue)",
+    "options": {
+      "var(--color-dodger-blue)": "Dodger Blue",
+      "var(--color-prussian-blue)": "Prussian Blue",
+      "var(--color-school-bus-yellow)": "School Bus Yellow",
+      "var(--color-indigo)": "Indigo",
+      "var(--color-cinereous)": "Cinereous",
+      "var(--color-white)": "White",
+      "var(--color-black)": "Black"
+    }
+  },
+  "backgroundColor": {
+    "type": "dropdown",
+    "label": "Background Color",
+    "value": "var(--color-prussian-blue)",
+    "options": {
+      "var(--color-dodger-blue)": "Dodger Blue",
+      "var(--color-prussian-blue)": "Prussian Blue",
+      "var(--color-school-bus-yellow)": "School Bus Yellow",
+      "var(--color-indigo)": "Indigo",
+      "var(--color-cinereous)": "Cinereous",
+      "var(--color-white)": "White",
+      "var(--color-black)": "Black"
+    }
+  },
+  "textColor": {
+    "type": "dropdown",
+    "label": "Text Color",
+    "value": "var(--color-white)",
+    "options": {
+      "var(--color-dodger-blue)": "Dodger Blue",
+      "var(--color-prussian-blue)": "Prussian Blue",
+      "var(--color-school-bus-yellow)": "School Bus Yellow",
+      "var(--color-indigo)": "Indigo",
+      "var(--color-cinereous)": "Cinereous",
+      "var(--color-white)": "White",
+      "var(--color-black)": "Black"
+    }
+  }
+}

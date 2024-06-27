@@ -1,0 +1,58 @@
+:root {
+  --color-dodger-blue: #4b9eff;
+  --color-prussian-blue: #153243;
+  --color-school-bus-yellow: #ffdb00;
+  --color-indigo: #284b63;
+  --color-cinereous: #81726a;
+  --color-white: #efefef;
+  --color-black: #101010;
+}
+
+div.widget-container {
+  box-sizing: border-box;
+  
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+  width: 100%;
+  font-family: 'Advent Pro', sans-serif;
+  opacity: 0.9;
+}
+
+div.aug-ui-border {
+  --aug-round-tl1: initial;
+  
+  --aug-clip-tr1: initial;
+  --aug-tr1: 15px;
+
+  --aug-round-br1: initial;
+
+  --aug-clip-bl1: initial;
+  --aug-bl1: 20px;
+}
+
+div.aug-ui-border-settings {
+  --aug-border-bg: var(--color-dodger-blue);
+  --aug-inlay-bg: var(--color-black);
+}
+
+img.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+div.username-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+span.username {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--color-white);
+}
