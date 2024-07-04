@@ -1,0 +1,113 @@
+:root {
+  --color-dodger-blue: #4b9eff;
+  --color-prussian-blue: #153243;
+  --color-school-bus-yellow: #ffdb00;
+  --color-indigo: #284b63;
+  --color-cinereous: #81726a;
+  --color-white: #efefef;
+  --color-black: #101010;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Advent Pro', sans-serif;
+}
+
+div.follower-goal {
+  width: calc(100% - 20px);
+  height: calc(100% - 25px);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 15px 10px 10px;
+  opacity: 0.9;
+}
+
+h2.follower-goal__label {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 3px);
+  transform: translate(-50%, -50%);
+  padding: 0 10px;
+  z-index: 1;
+}
+
+h2.follower-goal__label--settings {
+  background-color: {{labelBackgroundColor}};
+  color: {{labelTextColor}};
+}
+
+div.follower-goal__progress-bar {
+  flex-grow: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+div.aug-ui-border {
+  --aug-clip-tl1: initial;
+  --aug-tl1: 10px;
+  
+  --aug-rect-t1: initial;
+  --aug-t-extend1: 125px;
+  
+  --aug-clip-tr1: initial;
+  --aug-tr1: 15px;
+  
+  --aug-clip-bl1: initial;
+  --aug-bl1: 10px;
+  
+  --aug-clip-br1: initial;
+  --aug-br1: 20px;
+}
+
+div.aug-ui-border--settings {
+  --aug-border-bg: {{borderColorInProgress}};
+  --aug-inlay-bg: {{backgroundColor}};
+}
+
+div.follower-goal__progress {
+  height: 100%;
+  width: 0;
+  background-color: {{progressBarColorInProgress}};
+  transition: width 0.5s ease-in-out;
+  position: relative;
+}
+
+div.follower-goal__text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0 10px;
+  white-space: nowrap;
+  color: {{progressBarTextColorInside}};
+}
+
+div.follower-goal__progress-bar.completed {
+  --aug-border-bg: {{borderColorCompleted}};
+  --aug-inlay-bg: {{backgroundColor}};
+}
+
+div.follower-goal__progress-bar.completed .follower-goal__progress {
+  background-color: {{progressBarColorCompleted}};
+}
+
+div.follower-goal__progress-bar.completed .follower-goal__text {
+  color: {{progressBarTextColorCompleted}};
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+div.follower-goal__progress-bar.completed h2.follower-goal__label--settings {
+  background-color: {{completedLabelBackgroundColor}};
+  color: {{completedLabelTextColor}};
+}

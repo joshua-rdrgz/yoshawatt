@@ -1,0 +1,147 @@
+{
+  "followerGoal": {
+    "type": "number",
+    "label": "Follower Goal",
+    "value": 10
+  },
+  "labelBackgroundColor": {
+    "type": "dropdown",
+    "label": "Label Background Color",
+    "value": "var(--color-prussian-blue)",
+    "options": {
+      "var(--color-dodger-blue)": "Dodger Blue",
+      "var(--color-prussian-blue)": "Prussian Blue",
+      "var(--color-school-bus-yellow)": "School Bus Yellow",
+      "var(--color-indigo)": "Indigo",
+      "var(--color-cinereous)": "Cinereous",
+      "var(--color-white)": "White",
+      "var(--color-black)": "Black"
+    }
+  },
+  "labelTextColor": {
+    "type": "dropdown",
+    "label": "Label Text Color",
+    "value": "var(--color-white)",
+    "options": {
+      "var(--color-dodger-blue)": "Dodger Blue",
+      "var(--color-prussian-blue)": "Prussian Blue",
+      "var(--color-school-bus-yellow)": "School Bus Yellow",
+      "var(--color-indigo)": "Indigo",
+      "var(--color-cinereous)": "Cinereous",
+      "var(--color-white)": "White",
+      "var(--color-black)": "Black"
+    }
+  },
+  "borderColorInProgress": {
+    "type": "dropdown",
+    "label": "Border Color (In Progress)",
+    "value": "var(--color-dodger-blue)",
+    "options": {
+      "var(--color-dodger-blue)": "Dodger Blue",
+      "var(--color-prussian-blue)": "Prussian Blue",
+      "var(--color-school-bus-yellow)": "School Bus Yellow",
+      "var(--color-indigo)": "Indigo",
+      "var(--color-cinereous)": "Cinereous",
+      "var(--color-white)": "White",
+      "var(--color-black)": "Black"
+    }
+  },
+  "borderColorCompleted": {
+    "type": "dropdown",
+    "label": "Border Color (Completed)",
+    "value": "var(--color-school-bus-yellow)",
+    "options": {
+      "var(--color-dodger-blue)": "Dodger Blue",
+      "var(--color-prussian-blue)": "Prussian Blue",
+      "var(--color-school-bus-yellow)": "School Bus Yellow",
+      "var(--color-indigo)": "Indigo",
+      "var(--color-cinereous)": "Cinereous",
+      "var(--color-white)": "White",
+      "var(--color-black)": "Black"
+    }
+  },
+  "backgroundColor": {
+    "type": "dropdown",
+    "label": "Background Color",
+    "value": "var(--color-prussian-blue)",
+    "options": {
+      "var(--color-dodger-blue)": "Dodger Blue",
+      "var(--color-prussian-blue)": "Prussian Blue",
+      "var(--color-school-bus-yellow)": "School Bus Yellow",
+      "var(--color-indigo)": "Indigo",
+      "var(--color-cinereous)": "Cinereous",
+      "var(--color-white)": "White",
+      "var(--color-black)": "Black"
+    }
+  },
+  "progressBarColorInProgress": {
+    "type": "dropdown",
+    "label": "Progress Bar Color (In Progress)",
+    "value": "var(--color-school-bus-yellow)",
+    "options": {
+      "var(--color-dodger-blue)": "Dodger Blue",
+      "var(--color-prussian-blue)": "Prussian Blue",
+      "var(--color-school-bus-yellow)": "School Bus Yellow",
+      "var(--color-indigo)": "Indigo",
+      "var(--color-cinereous)": "Cinereous",
+      "var(--color-white)": "White",
+      "var(--color-black)": "Black"
+    }
+  },
+  "progressBarColorCompleted": {
+    "type": "dropdown",
+    "label": "Progress Bar Color (Completed)",
+    "value": "var(--color-school-bus-yellow)",
+    "options": {
+      "var(--color-dodger-blue)": "Dodger Blue",
+      "var(--color-prussian-blue)": "Prussian Blue",
+      "var(--color-school-bus-yellow)": "School Bus Yellow",
+      "var(--color-indigo)": "Indigo",
+      "var(--color-cinereous)": "Cinereous",
+      "var(--color-white)": "White",
+      "var(--color-black)": "Black"
+    }
+  },
+  "progressBarTextColorInside": {
+    "type": "dropdown",
+    "label": "Progress Bar Text Color (Inside)",
+    "value": "var(--color-black)",
+    "options": {
+      "var(--color-dodger-blue)": "Dodger Blue",
+      "var(--color-prussian-blue)": "Prussian Blue",
+      "var(--color-school-bus-yellow)": "School Bus Yellow",
+      "var(--color-indigo)": "Indigo",
+      "var(--color-cinereous)": "Cinereous",
+      "var(--color-white)": "White",
+      "var(--color-black)": "Black"
+    }
+  },
+  "progressBarTextColorOutside": {
+    "type": "dropdown",
+    "label": "Progress Bar Text Color (Outside)",
+    "value": "var(--color-white)",
+    "options": {
+      "var(--color-dodger-blue)": "Dodger Blue",
+      "var(--color-prussian-blue)": "Prussian Blue",
+      "var(--color-school-bus-yellow)": "School Bus Yellow",
+      "var(--color-indigo)": "Indigo",
+      "var(--color-cinereous)": "Cinereous",
+      "var(--color-white)": "White",
+      "var(--color-black)": "Black"
+    }
+  },
+  "progressBarTextColorCompleted": {
+    "type": "dropdown",
+    "label": "Progress Bar Text Color (Completed)",
+    "value": "var(--color-black)",
+    "options": {
+      "var(--color-dodger-blue)": "Dodger Blue",
+      "var(--color-prussian-blue)": "Prussian Blue",
+      "var(--color-school-bus-yellow)": "School Bus Yellow",
+      "var(--color-indigo)": "Indigo",
+      "var(--color-cinereous)": "Cinereous",
+      "var(--color-white)": "White",
+      "var(--color-black)": "Black"
+    }
+  }
+}
